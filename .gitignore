@@ -1,0 +1,31 @@
+# Dataset (licensed, ~22 GB) and generated audio
+musdb18hq/
+musdb18hq_mini/
+separated_output/
+**/audio/
+*.wav
+*.mp3
+
+# Model weights and training runs
+checkpoints/
+runs/
+*.pth
+*.pt
+evaluation_output*/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# IDE / OS
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Older comparison run (different SDR backend, superseded by results/b32 vs b48)
+results/comparison/

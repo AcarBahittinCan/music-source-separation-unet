@@ -1,0 +1,10 @@
+# Install PyTorch with CUDA first, e.g.:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu121
+torch
+numpy
+soundfile
+tqdm
+matplotlib
+# optional, for SDR/SIR/SAR in evaluate.py (one of these)
+fast_bss_eval
+# museval
